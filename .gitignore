@@ -1,0 +1,44 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore database files
+*.sqlite3
+
+# Ignore secret keys and settings files
+*.secret_key
+
+# Ignore logs and media files
+logs/
+media/
+
+
+.idea/
+
+# Ignore node modules and build artifacts for the frontend
+frontend/node_modules/
+frontend/build/
+
+# Ignore any other frontend dependencies or build artifacts
+# Adjust this as needed for your specific frontend setup
+frontend/public/
+frontend/.cache/
+frontend/.env
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Ignore any other backend dependencies or build artifacts
+# Adjust this as needed for your specific backend setup
+backend/env/
+backend/venv/
+backend/.vscode/
+backend/.env
+backend/*.log
+backend/*.pyc
+backend/.coverage
+backend/coverage.xml
+backend/htmlcov/
+backend/dist/
+backend/build/
+backend/*.egg-info/
