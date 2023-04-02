@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000/api/quiz/',
+  baseURL: 'http://localhost:8000/',
 });
 
 export const fetchQuizzes = () => apiClient.get('quizzes/');

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { fetchQuizzes } from './api';
+import './App.css';
 
 function App() {
   const [quizzes, setQuizzes] = useState([]);
@@ -15,6 +16,8 @@ function App() {
 
   return (
     <div className="App">
+      {/* Add the banner here */}
+      <div className="Banner">QuizMaster</div>
       {/* TODO: Add quiz listing and navigation to quiz detail */}
       {quizzes.map((quiz) => (
         <div key={quiz._id}>
